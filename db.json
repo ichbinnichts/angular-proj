@@ -10,11 +10,11 @@
       "id": 3,
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
-      "text": "Mask",
-      "day": "Teste",
+      "text": "Test",
+      "day": "2121",
       "reminder": true,
       "id": 4
     }
