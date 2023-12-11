@@ -1,4 +1,5 @@
-<div>
-    <input type="text" placeholder="Search..." [(ngModel)]="searchTerm" />
-    <button (click)="onSearch()">Search</button>
-</div>
+<div class="form-outline" data-mdb-input-init>
+    <input type="search" id="form1" class="form-control" placeholder="Search..." aria-label="Search" [(ngModel)]="searchTerm" (input)="onSearch()"/>
+  </div>
+
+
