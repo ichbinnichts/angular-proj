@@ -29,4 +29,8 @@ export class TasksComponent {
   addTask(task: Task){
     this.taskService.addTask(task).subscribe((task) => this.tasks.push(task));
   }
+
+  search(searchTerm: string){
+    this.taskService.getTasks().subscribe((tasks) => this.tasks = tasks.filter(f => f.text.toLowerCase().includes(searchTerm.toLowerCase())));
+  }
 }
